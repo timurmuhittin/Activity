@@ -9,7 +9,7 @@ namespace ActivityAPI.Models
         public int UserId { get; set; }
         public int ActivityId { get; set; }
 
-        public virtual Activity Activity { get; set; } = null!;
-        public virtual User User { get; set; } = null!;
+        public virtual Activity? Activity { get; set; } = null!;
+        public virtual User? User { get; set; } = null!;
     }
 }
